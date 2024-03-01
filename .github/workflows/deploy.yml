@@ -15,6 +15,10 @@ jobs:
           - churches
           - paintings
 
+    environment:
+      name: heritageflix-${{ matrix.config }}
+      url: https://heritageflix-${{ matrix.config }}.demo.netwerkdigitaalerfgoed.nl
+
     steps:
       - uses: actions/checkout@v4
 
