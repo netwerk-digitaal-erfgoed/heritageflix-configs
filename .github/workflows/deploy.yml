@@ -15,6 +15,9 @@ jobs:
         config:
           - churches
           - paintings
+          - modemuze-materials
+          - modemuze-periods
+          - zuiderzeemuseum-locations
 
     environment:
       name: heritageflix-${{ matrix.config }}
